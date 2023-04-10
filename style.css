@@ -1,0 +1,67 @@
+/* Font globale */
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Sfondo della pagina */
+body{
+    background-image: url(background.jpg);
+}
+/* Quadrato di sfondo */
+#background_square{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* Padding del contenuto del quadrato */
+#contenuto{
+    padding: 5%;
+}
+/* Logo e titolo */
+header{
+    text-align: center;
+    color: rgb(0, 217, 0)
+}
+/* Bottoni funzionalità */
+nav{
+    text-align: center;
+    background-color: rgb(0, 217, 0);
+    padding: 5px;
+}
+/* Padding dell'elenco dei monopattini */
+main{
+    padding: 30px;
+    color: white;
+}
+/* Nomi dei monopattini */
+.monopattino{
+    display: inline;
+    font-size: 28px;
+    vertical-align: middle;
+}
+/* Nomi delle vie e distanza */
+.via{
+    font-size: 18px;
+    font-style: italic;
+}
+/* Carica residua della batteria */
+#carica_batteria1{
+    background-color: orange;
+    border-radius: 5px;
+    height: 20px;
+    width: 40%;
+}
+
+#carica_batteria2{
+    background-color: green;
+    border-radius: 5px;
+    height: 20px;
+    width: 65%;
+}
+
+#carica_batteria3{
+    background-color: red;
+    border-radius: 5px;
+    height: 20px;
+    width: 20%;
+}
